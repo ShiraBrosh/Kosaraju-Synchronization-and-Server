@@ -1,0 +1,1193 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00       78     0.00     0.00  std::__deque_buf_size(unsigned long)
+  0.00      0.00     0.00       68     0.00     0.00  std::_Deque_iterator<int, int&, int*>::_Deque_iterator(std::_Deque_iterator<int, int&, int*> const&)
+  0.00      0.00     0.00       46     0.00     0.00  std::operator==(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&)
+  0.00      0.00     0.00       44     0.00     0.00  std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int)
+  0.00      0.00     0.00       40     0.00     0.00  std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int)
+  0.00      0.00     0.00       40     0.00     0.00  int const& std::forward<int const&>(std::remove_reference<int const&>::type&)
+  0.00      0.00     0.00       39     0.00     0.00  std::_Bit_iterator::operator+=(long)
+  0.00      0.00     0.00       39     0.00     0.00  std::_Bit_iterator_base::_M_incr(long)
+  0.00      0.00     0.00       39     0.00     0.00  std::vector<bool, std::allocator<bool> >::begin()
+  0.00      0.00     0.00       39     0.00     0.00  std::operator!=(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&)
+  0.00      0.00     0.00       39     0.00     0.00  std::operator+(std::_Bit_iterator const&, long)
+  0.00      0.00     0.00       38     0.00     0.00  std::_Bit_iterator::operator*() const
+  0.00      0.00     0.00       38     0.00     0.00  std::_Bit_iterator::operator[](long) const
+  0.00      0.00     0.00       38     0.00     0.00  std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long)
+  0.00      0.00     0.00       38     0.00     0.00  std::vector<bool, std::allocator<bool> >::operator[](unsigned long)
+  0.00      0.00     0.00       37     0.00     0.00  std::deque<int, std::allocator<int> >::end()
+  0.00      0.00     0.00       32     0.00     0.00  std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::operator[](unsigned long)
+  0.00      0.00     0.00       32     0.00     0.00  operator new(unsigned long, void*)
+  0.00      0.00     0.00       31     0.00     0.00  std::deque<int, std::allocator<int> >::begin()
+  0.00      0.00     0.00       27     0.00     0.00  std::_Deque_iterator<int, int&, int*>::operator*() const
+  0.00      0.00     0.00       26     0.00     0.00  __gnu_cxx::new_allocator<int*>::new_allocator()
+  0.00      0.00     0.00       26     0.00     0.00  __gnu_cxx::new_allocator<int*>::~new_allocator()
+  0.00      0.00     0.00       26     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_M_get_Tp_allocator() const
+  0.00      0.00     0.00       26     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_M_get_map_allocator() const
+  0.00      0.00     0.00       26     0.00     0.00  std::_Bit_reference::operator bool() const
+  0.00      0.00     0.00       26     0.00     0.00  std::allocator<int*>::allocator<int>(std::allocator<int> const&)
+  0.00      0.00     0.00       26     0.00     0.00  std::allocator<int*>::~allocator()
+  0.00      0.00     0.00       26     0.00     0.00  std::_Deque_iterator<int, int&, int*>::_M_set_node(int**)
+  0.00      0.00     0.00       26     0.00     0.00  std::_Deque_iterator<int, int&, int*>::_S_buffer_size()
+  0.00      0.00     0.00       26     0.00     0.00  std::_Deque_iterator<int, int&, int*>::_Deque_iterator()
+  0.00      0.00     0.00       24     0.00     0.00  std::deque<int, std::allocator<int> >* std::__addressof<std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >&)
+  0.00      0.00     0.00       21     0.00     0.00  std::_Deque_iterator<int, int&, int*>::operator++()
+  0.00      0.00     0.00       20     0.00     0.00  void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&)
+  0.00      0.00     0.00       20     0.00     0.00  void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&)
+  0.00      0.00     0.00       20     0.00     0.00  std::deque<int, std::allocator<int> >::push_back(int const&)
+  0.00      0.00     0.00       19     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00       15     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      0.00     0.00       14     0.00     0.00  std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::size() const
+  0.00      0.00     0.00       13     0.00     0.00  __gnu_cxx::new_allocator<int*>::deallocate(int**, unsigned long)
+  0.00      0.00     0.00       13     0.00     0.00  __gnu_cxx::new_allocator<int*>::allocate(unsigned long, void const*)
+  0.00      0.00     0.00       13     0.00     0.00  __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long)
+  0.00      0.00     0.00       13     0.00     0.00  __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*)
+  0.00      0.00     0.00       13     0.00     0.00  __gnu_cxx::new_allocator<int>::new_allocator()
+  0.00      0.00     0.00       13     0.00     0.00  __gnu_cxx::new_allocator<int>::~new_allocator()
+  0.00      0.00     0.00       13     0.00     0.00  __gnu_cxx::new_allocator<int*>::_M_max_size() const
+  0.00      0.00     0.00       13     0.00     0.00  __gnu_cxx::new_allocator<int>::_M_max_size() const
+  0.00      0.00     0.00       13     0.00     0.00  std::allocator<int>::allocator()
+  0.00      0.00     0.00       13     0.00     0.00  std::allocator<int>::~allocator()
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_Deque_impl::_Deque_impl()
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_Deque_impl::~_Deque_impl()
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_M_allocate_map(unsigned long)
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_M_create_nodes(int**, int**)
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_Deque_impl_data::_Deque_impl_data()
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_M_allocate_node()
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_M_destroy_nodes(int**, int**)
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_M_deallocate_map(int**, unsigned long)
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_M_initialize_map(unsigned long)
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_M_deallocate_node(int*)
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::_Deque_base()
+  0.00      0.00     0.00       13     0.00     0.00  std::_Deque_base<int, std::allocator<int> >::~_Deque_base()
+  0.00      0.00     0.00       13     0.00     0.00  std::allocator_traits<std::allocator<int*> >::deallocate(std::allocator<int*>&, int**, unsigned long)
+  0.00      0.00     0.00       13     0.00     0.00  std::allocator_traits<std::allocator<int*> >::allocate(std::allocator<int*>&, unsigned long)
+  0.00      0.00     0.00       13     0.00     0.00  std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned long)
+  0.00      0.00     0.00       13     0.00     0.00  std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long)
+  0.00      0.00     0.00       13     0.00     0.00  std::deque<int, std::allocator<int> >::_M_destroy_data(std::_Deque_iterator<int, int&, int*>, std::_Deque_iterator<int, int&, int*>, std::allocator<int> const&)
+  0.00      0.00     0.00       13     0.00     0.00  std::deque<int, std::allocator<int> >::deque()
+  0.00      0.00     0.00       13     0.00     0.00  std::deque<int, std::allocator<int> >::~deque()
+  0.00      0.00     0.00       12     0.00     0.00  std::_Bit_reference::operator=(bool)
+  0.00      0.00     0.00       12     0.00     0.00  void std::_Construct<std::deque<int, std::allocator<int> >>(std::deque<int, std::allocator<int> >*)
+  0.00      0.00     0.00       12     0.00     0.00  void std::_Destroy<std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*)
+  0.00      0.00     0.00       10     0.00     0.00  __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::_M_max_size() const
+  0.00      0.00     0.00        8     0.00     0.00  __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::max_size() const
+  0.00      0.00     0.00        8     0.00     0.00  std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_get_Tp_allocator() const
+  0.00      0.00     0.00        8     0.00     0.00  std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::max_size() const
+  0.00      0.00     0.00        8     0.00     0.00  std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::max_size(std::allocator<std::deque<int, std::allocator<int> > > const&)
+  0.00      0.00     0.00        8     0.00     0.00  std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_max_size(std::allocator<std::deque<int, std::allocator<int> > > const&)
+  0.00      0.00     0.00        8     0.00     0.00  unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      0.00     0.00        7     0.00     0.00  Graph::addEdge(int, int)
+  0.00      0.00     0.00        7     0.00     0.00  std::deque<int, std::allocator<int> >::empty() const
+  0.00      0.00     0.00        7     0.00     0.00  std::stack<int, std::deque<int, std::allocator<int> > >::empty() const
+  0.00      0.00     0.00        6     0.00     0.00  Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&)
+  0.00      0.00     0.00        6     0.00     0.00  void __gnu_cxx::new_allocator<int>::destroy<int>(int*)
+  0.00      0.00     0.00        6     0.00     0.00  std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_get_Tp_allocator()
+  0.00      0.00     0.00        6     0.00     0.00  std::_Deque_iterator<int, int&, int*>::operator--()
+  0.00      0.00     0.00        6     0.00     0.00  void std::allocator_traits<std::allocator<int> >::destroy<int>(std::allocator<int>&, int*)
+  0.00      0.00     0.00        6     0.00     0.00  std::deque<int, std::allocator<int> >::back()
+  0.00      0.00     0.00        6     0.00     0.00  std::deque<int, std::allocator<int> >::pop_back()
+  0.00      0.00     0.00        6     0.00     0.00  std::stack<int, std::deque<int, std::allocator<int> > >::pop()
+  0.00      0.00     0.00        6     0.00     0.00  std::stack<int, std::deque<int, std::allocator<int> > >::top()
+  0.00      0.00     0.00        6     0.00     0.00  std::stack<int, std::deque<int, std::allocator<int> > >::push(int const&)
+  0.00      0.00     0.00        6     0.00     0.00  std::deque<int, std::allocator<int> >* std::__niter_base<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*)
+  0.00      0.00     0.00        4     0.00     0.00  std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_deallocate(std::deque<int, std::allocator<int> >*, unsigned long)
+  0.00      0.00     0.00        4     0.00     0.00  std::_Bit_iterator::_Bit_iterator()
+  0.00      0.00     0.00        3     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const
+  0.00      0.00     0.00        3     0.00     0.00  unsigned long* std::__addressof<unsigned long>(unsigned long&)
+  0.00      0.00     0.00        2     0.00     0.00  Graph::Graph(int)
+  0.00      0.00     0.00        2     0.00     0.00  Graph::~Graph()
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::deallocate(std::deque<int, std::allocator<int> >*, unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::allocate(unsigned long, void const*)
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::new_allocator()
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::~new_allocator()
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::~new_allocator()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const
+  0.00      0.00     0.00        2     0.00     0.00  std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const
+  0.00      0.00     0.00        2     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1l> >::count() const
+  0.00      0.00     0.00        2     0.00     0.00  std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_check_len(unsigned long, char const*) const
+  0.00      0.00     0.00        2     0.00     0.00  std::allocator<std::deque<int, std::allocator<int> > >::allocator()
+  0.00      0.00     0.00        2     0.00     0.00  std::allocator<std::deque<int, std::allocator<int> > >::~allocator()
+  0.00      0.00     0.00        2     0.00     0.00  std::allocator<unsigned long>::~allocator()
+  0.00      0.00     0.00        2     0.00     0.00  void std::_Destroy_aux<false>::__destroy<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*)
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_allocate(unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl::_Vector_impl()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl_data::_Vector_impl_data()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_base()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~_Vector_base()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::deallocate(std::allocator<std::deque<int, std::allocator<int> > >&, std::deque<int, std::allocator<int> >*, unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::allocate(std::allocator<std::deque<int, std::allocator<int> > >&, unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  std::deque<int, std::allocator<int> >* std::__uninitialized_default_n_1<false>::__uninit_default_n<std::deque<int, std::allocator<int> >*, unsigned long>(std::deque<int, std::allocator<int> >*, unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_relocate(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&)
+  0.00      0.00     0.00        2     0.00     0.00  std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_do_relocate(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&, std::integral_constant<bool, true>)
+  0.00      0.00     0.00        2     0.00     0.00  std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::resize(unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::vector()
+  0.00      0.00     0.00        2     0.00     0.00  std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~vector()
+  0.00      0.00     0.00        2     0.00     0.00  std::deque<int, std::allocator<int> >* std::__relocate_a<std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&)
+  0.00      0.00     0.00        2     0.00     0.00  std::enable_if<std::__is_bitwise_relocatable<std::deque<int, std::allocator<int> >, void>::value, std::deque<int, std::allocator<int> >*>::type std::__relocate_a_1<std::deque<int, std::allocator<int> >, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&)
+  0.00      0.00     0.00        2     0.00     0.00  std::deque<int, std::allocator<int> >* std::__uninitialized_default_n<std::deque<int, std::allocator<int> >*, unsigned long>(std::deque<int, std::allocator<int> >*, unsigned long)
+  0.00      0.00     0.00        2     0.00     0.00  std::deque<int, std::allocator<int> >* std::__uninitialized_default_n_a<std::deque<int, std::allocator<int> >*, unsigned long, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, unsigned long, std::allocator<std::deque<int, std::allocator<int> > >&)
+  0.00      0.00     0.00        2     0.00     0.00  void std::_Destroy<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*)
+  0.00      0.00     0.00        2     0.00     0.00  void std::_Destroy<std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&)
+  0.00      0.00     0.00        1     0.00     0.00  double measureTime<main::{lambda()#1}>(main::{lambda()#1})
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  Graph::getTransposeGraph()
+  0.00      0.00     0.00        1     0.00     0.00  Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&)
+  0.00      0.00     0.00        1     0.00     0.00  Graph::printSCCs()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<bool>::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<bool>::~new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned long, void const*)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::new_allocator(__gnu_cxx::new_allocator<unsigned long> const&)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<unsigned long>::_M_max_size() const
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<bool>::allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<bool>::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_M_deallocate()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Bvector_base<std::allocator<bool> >::~_Bvector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::stack<int, std::deque<int, std::allocator<int> > >::stack<std::deque<int, std::allocator<int> >, void>()
+  0.00      0.00     0.00        1     0.00     0.00  std::stack<int, std::deque<int, std::allocator<int> > >::~stack()
+  0.00      0.00     0.00        1     0.00     0.00  std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1l> > >::value, std::chrono::duration<double, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1l> >::duration<double, void>(double const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<bool, std::allocator<bool> >::end()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<bool, std::allocator<bool> >::vector(unsigned long, bool const&, std::allocator<bool> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<bool, std::allocator<bool> >::~vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::__fill_bvector(unsigned long*, unsigned int, unsigned int, bool)
+  0.00      0.00     0.00        1     0.00     0.00  void std::fill<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&)
+  0.00      0.00     0.00        1     0.00     0.00  void std::__fill_a<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::__fill_a1(std::_Bit_iterator, std::_Bit_iterator, bool const&)
+  0.00      0.00     0.00        1     0.00     0.00  main::{lambda()#1}::operator()() const
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00      13/78          std::_Deque_base<int, std::allocator<int> >::_M_allocate_node() [61]
+                0.00    0.00      13/78          std::_Deque_base<int, std::allocator<int> >::_M_deallocate_node(int*) [65]
+                0.00    0.00      26/78          std::_Deque_iterator<int, int&, int*>::_S_buffer_size() [36]
+                0.00    0.00      26/78          std::_Deque_base<int, std::allocator<int> >::_M_initialize_map(unsigned long) [64]
+[8]      0.0    0.00    0.00      78         std::__deque_buf_size(unsigned long) [8]
+-----------------------------------------------
+                0.00    0.00      31/68          std::deque<int, std::allocator<int> >::begin() [26]
+                0.00    0.00      37/68          std::deque<int, std::allocator<int> >::end() [23]
+[9]      0.0    0.00    0.00      68         std::_Deque_iterator<int, int&, int*>::_Deque_iterator(std::_Deque_iterator<int, int&, int*> const&) [9]
+-----------------------------------------------
+                0.00    0.00       7/46          std::deque<int, std::allocator<int> >::empty() const [86]
+                0.00    0.00      39/46          std::operator!=(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&) [17]
+[10]     0.0    0.00    0.00      46         std::operator==(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&) [10]
+-----------------------------------------------
+                0.00    0.00       4/44          std::_Bit_iterator::_Bit_iterator() [100]
+                0.00    0.00      40/44          std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) [12]
+[11]     0.0    0.00    0.00      44         std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) [11]
+-----------------------------------------------
+                0.00    0.00       1/40          std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned long) [175]
+                0.00    0.00      39/40          std::vector<bool, std::allocator<bool> >::begin() [16]
+[12]     0.0    0.00    0.00      40         std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) [12]
+                0.00    0.00      40/44          std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) [11]
+-----------------------------------------------
+                0.00    0.00      20/40          void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&) [41]
+                0.00    0.00      20/40          void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&) [40]
+[13]     0.0    0.00    0.00      40         int const& std::forward<int const&>(std::remove_reference<int const&>::type&) [13]
+-----------------------------------------------
+                0.00    0.00      39/39          std::operator+(std::_Bit_iterator const&, long) [18]
+[14]     0.0    0.00    0.00      39         std::_Bit_iterator::operator+=(long) [14]
+                0.00    0.00      39/39          std::_Bit_iterator_base::_M_incr(long) [15]
+-----------------------------------------------
+                0.00    0.00      39/39          std::_Bit_iterator::operator+=(long) [14]
+[15]     0.0    0.00    0.00      39         std::_Bit_iterator_base::_M_incr(long) [15]
+-----------------------------------------------
+                0.00    0.00       1/39          Graph::printSCCs() [145]
+                0.00    0.00      38/39          std::vector<bool, std::allocator<bool> >::operator[](unsigned long) [22]
+[16]     0.0    0.00    0.00      39         std::vector<bool, std::allocator<bool> >::begin() [16]
+                0.00    0.00      39/40          std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) [12]
+-----------------------------------------------
+                0.00    0.00      13/39          Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00      13/39          Graph::getTransposeGraph() [143]
+                0.00    0.00      13/39          Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [88]
+[17]     0.0    0.00    0.00      39         std::operator!=(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&) [17]
+                0.00    0.00      39/46          std::operator==(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&) [10]
+-----------------------------------------------
+                0.00    0.00       1/39          std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned long) [175]
+                0.00    0.00      38/39          std::_Bit_iterator::operator[](long) const [20]
+[18]     0.0    0.00    0.00      39         std::operator+(std::_Bit_iterator const&, long) [18]
+                0.00    0.00      39/39          std::_Bit_iterator::operator+=(long) [14]
+-----------------------------------------------
+                0.00    0.00      38/38          std::_Bit_iterator::operator[](long) const [20]
+[19]     0.0    0.00    0.00      38         std::_Bit_iterator::operator*() const [19]
+                0.00    0.00      38/38          std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long) [21]
+-----------------------------------------------
+                0.00    0.00      38/38          std::vector<bool, std::allocator<bool> >::operator[](unsigned long) [22]
+[20]     0.0    0.00    0.00      38         std::_Bit_iterator::operator[](long) const [20]
+                0.00    0.00      38/39          std::operator+(std::_Bit_iterator const&, long) [18]
+                0.00    0.00      38/38          std::_Bit_iterator::operator*() const [19]
+-----------------------------------------------
+                0.00    0.00      38/38          std::_Bit_iterator::operator*() const [19]
+[21]     0.0    0.00    0.00      38         std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long) [21]
+-----------------------------------------------
+                0.00    0.00      12/38          Graph::printSCCs() [145]
+                0.00    0.00      13/38          Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00      13/38          Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [88]
+[22]     0.0    0.00    0.00      38         std::vector<bool, std::allocator<bool> >::operator[](unsigned long) [22]
+                0.00    0.00      38/39          std::vector<bool, std::allocator<bool> >::begin() [16]
+                0.00    0.00      38/38          std::_Bit_iterator::operator[](long) const [20]
+-----------------------------------------------
+                0.00    0.00       6/37          Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00       6/37          Graph::getTransposeGraph() [143]
+                0.00    0.00       6/37          Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [88]
+                0.00    0.00       6/37          std::deque<int, std::allocator<int> >::back() [93]
+                0.00    0.00      13/37          std::deque<int, std::allocator<int> >::~deque() [74]
+[23]     0.0    0.00    0.00      37         std::deque<int, std::allocator<int> >::end() [23]
+                0.00    0.00      37/68          std::_Deque_iterator<int, int&, int*>::_Deque_iterator(std::_Deque_iterator<int, int&, int*> const&) [9]
+-----------------------------------------------
+                0.00    0.00       6/32          Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00       6/32          Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [88]
+                0.00    0.00       7/32          Graph::addEdge(int, int) [85]
+                0.00    0.00      13/32          Graph::getTransposeGraph() [143]
+[24]     0.0    0.00    0.00      32         std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::operator[](unsigned long) [24]
+-----------------------------------------------
+                0.00    0.00      12/32          void std::_Construct<std::deque<int, std::allocator<int> >>(std::deque<int, std::allocator<int> >*) [76]
+                0.00    0.00      20/32          void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&) [40]
+[25]     0.0    0.00    0.00      32         operator new(unsigned long, void*) [25]
+-----------------------------------------------
+                0.00    0.00       6/31          Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00       6/31          Graph::getTransposeGraph() [143]
+                0.00    0.00       6/31          Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [88]
+                0.00    0.00      13/31          std::deque<int, std::allocator<int> >::~deque() [74]
+[26]     0.0    0.00    0.00      31         std::deque<int, std::allocator<int> >::begin() [26]
+                0.00    0.00      31/68          std::_Deque_iterator<int, int&, int*>::_Deque_iterator(std::_Deque_iterator<int, int&, int*> const&) [9]
+-----------------------------------------------
+                0.00    0.00       6/27          std::deque<int, std::allocator<int> >::back() [93]
+                0.00    0.00       7/27          Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00       7/27          Graph::getTransposeGraph() [143]
+                0.00    0.00       7/27          Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [88]
+[27]     0.0    0.00    0.00      27         std::_Deque_iterator<int, int&, int*>::operator*() const [27]
+-----------------------------------------------
+                0.00    0.00      26/26          std::allocator<int*>::allocator<int>(std::allocator<int> const&) [33]
+[28]     0.0    0.00    0.00      26         __gnu_cxx::new_allocator<int*>::new_allocator() [28]
+-----------------------------------------------
+                0.00    0.00      26/26          std::allocator<int*>::~allocator() [34]
+[29]     0.0    0.00    0.00      26         __gnu_cxx::new_allocator<int*>::~new_allocator() [29]
+-----------------------------------------------
+                0.00    0.00      26/26          std::_Deque_base<int, std::allocator<int> >::_M_get_map_allocator() const [31]
+[30]     0.0    0.00    0.00      26         std::_Deque_base<int, std::allocator<int> >::_M_get_Tp_allocator() const [30]
+-----------------------------------------------
+                0.00    0.00      13/26          std::_Deque_base<int, std::allocator<int> >::_M_deallocate_map(int**, unsigned long) [63]
+                0.00    0.00      13/26          std::_Deque_base<int, std::allocator<int> >::_M_allocate_map(unsigned long) [58]
+[31]     0.0    0.00    0.00      26         std::_Deque_base<int, std::allocator<int> >::_M_get_map_allocator() const [31]
+                0.00    0.00      26/26          std::_Deque_base<int, std::allocator<int> >::_M_get_Tp_allocator() const [30]
+                0.00    0.00      26/26          std::allocator<int*>::allocator<int>(std::allocator<int> const&) [33]
+-----------------------------------------------
+                0.00    0.00       7/26          Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00       7/26          Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [88]
+                0.00    0.00      12/26          Graph::printSCCs() [145]
+[32]     0.0    0.00    0.00      26         std::_Bit_reference::operator bool() const [32]
+-----------------------------------------------
+                0.00    0.00      26/26          std::_Deque_base<int, std::allocator<int> >::_M_get_map_allocator() const [31]
+[33]     0.0    0.00    0.00      26         std::allocator<int*>::allocator<int>(std::allocator<int> const&) [33]
+                0.00    0.00      26/26          __gnu_cxx::new_allocator<int*>::new_allocator() [28]
+-----------------------------------------------
+                0.00    0.00      13/26          std::_Deque_base<int, std::allocator<int> >::_M_deallocate_map(int**, unsigned long) [63]
+                0.00    0.00      13/26          std::_Deque_base<int, std::allocator<int> >::_M_allocate_map(unsigned long) [58]
+[34]     0.0    0.00    0.00      26         std::allocator<int*>::~allocator() [34]
+                0.00    0.00      26/26          __gnu_cxx::new_allocator<int*>::~new_allocator() [29]
+-----------------------------------------------
+                0.00    0.00      26/26          std::_Deque_base<int, std::allocator<int> >::_M_initialize_map(unsigned long) [64]
+[35]     0.0    0.00    0.00      26         std::_Deque_iterator<int, int&, int*>::_M_set_node(int**) [35]
+                0.00    0.00      26/26          std::_Deque_iterator<int, int&, int*>::_S_buffer_size() [36]
+-----------------------------------------------
+                0.00    0.00      26/26          std::_Deque_iterator<int, int&, int*>::_M_set_node(int**) [35]
+[36]     0.0    0.00    0.00      26         std::_Deque_iterator<int, int&, int*>::_S_buffer_size() [36]
+                0.00    0.00      26/78          std::__deque_buf_size(unsigned long) [8]
+-----------------------------------------------
+                0.00    0.00      26/26          std::_Deque_base<int, std::allocator<int> >::_Deque_impl_data::_Deque_impl_data() [60]
+[37]     0.0    0.00    0.00      26         std::_Deque_iterator<int, int&, int*>::_Deque_iterator() [37]
+-----------------------------------------------
+                0.00    0.00      12/24          void std::_Destroy_aux<false>::__destroy<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*) [117]
+                0.00    0.00      12/24          std::deque<int, std::allocator<int> >* std::__uninitialized_default_n_1<false>::__uninit_default_n<std::deque<int, std::allocator<int> >*, unsigned long>(std::deque<int, std::allocator<int> >*, unsigned long) [128]
+[38]     0.0    0.00    0.00      24         std::deque<int, std::allocator<int> >* std::__addressof<std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >&) [38]
+-----------------------------------------------
+                0.00    0.00       7/21          Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00       7/21          Graph::getTransposeGraph() [143]
+                0.00    0.00       7/21          Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [88]
+[39]     0.0    0.00    0.00      21         std::_Deque_iterator<int, int&, int*>::operator++() [39]
+-----------------------------------------------
+                0.00    0.00      20/20          void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&) [41]
+[40]     0.0    0.00    0.00      20         void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&) [40]
+                0.00    0.00      20/40          int const& std::forward<int const&>(std::remove_reference<int const&>::type&) [13]
+                0.00    0.00      20/32          operator new(unsigned long, void*) [25]
+-----------------------------------------------
+                0.00    0.00      20/20          std::deque<int, std::allocator<int> >::push_back(int const&) [42]
+[41]     0.0    0.00    0.00      20         void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&) [41]
+                0.00    0.00      20/40          int const& std::forward<int const&>(std::remove_reference<int const&>::type&) [13]
+                0.00    0.00      20/20          void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&) [40]
+-----------------------------------------------
+                0.00    0.00       6/20          std::stack<int, std::deque<int, std::allocator<int> > >::push(int const&) [97]
+                0.00    0.00       7/20          Graph::addEdge(int, int) [85]
+                0.00    0.00       7/20          Graph::getTransposeGraph() [143]
+[42]     0.0    0.00    0.00      20         std::deque<int, std::allocator<int> >::push_back(int const&) [42]
+                0.00    0.00      20/20          void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&) [41]
+-----------------------------------------------
+                0.00    0.00       6/19          std::deque<int, std::allocator<int> >::pop_back() [94]
+                0.00    0.00      13/19          std::deque<int, std::allocator<int> >::~deque() [74]
+[43]     0.0    0.00    0.00      19         std::_Deque_base<int, std::allocator<int> >::_M_get_Tp_allocator() [43]
+-----------------------------------------------
+                0.00    0.00       2/15          std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_check_len(unsigned long, char const*) const [113]
+                0.00    0.00      13/15          std::_Deque_base<int, std::allocator<int> >::_M_initialize_map(unsigned long) [64]
+[44]     0.0    0.00    0.00      15         unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [44]
+-----------------------------------------------
+                0.00    0.00       2/14          std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long) [131]
+                0.00    0.00       4/14          std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::resize(unsigned long) [132]
+                0.00    0.00       8/14          std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_check_len(unsigned long, char const*) const [113]
+[45]     0.0    0.00    0.00      14         std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::size() const [45]
+-----------------------------------------------
+                0.00    0.00      13/13          std::allocator_traits<std::allocator<int*> >::deallocate(std::allocator<int*>&, int**, unsigned long) [68]
+[46]     0.0    0.00    0.00      13         __gnu_cxx::new_allocator<int*>::deallocate(int**, unsigned long) [46]
+-----------------------------------------------
+                0.00    0.00      13/13          std::allocator_traits<std::allocator<int*> >::allocate(std::allocator<int*>&, unsigned long) [69]
+[47]     0.0    0.00    0.00      13         __gnu_cxx::new_allocator<int*>::allocate(unsigned long, void const*) [47]
+                0.00    0.00      13/13          __gnu_cxx::new_allocator<int*>::_M_max_size() const [52]
+-----------------------------------------------
+                0.00    0.00      13/13          std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned long) [70]
+[48]     0.0    0.00    0.00      13         __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) [48]
+-----------------------------------------------
+                0.00    0.00      13/13          std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) [71]
+[49]     0.0    0.00    0.00      13         __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) [49]
+                0.00    0.00      13/13          __gnu_cxx::new_allocator<int>::_M_max_size() const [53]
+-----------------------------------------------
+                0.00    0.00      13/13          std::allocator<int>::allocator() [54]
+[50]     0.0    0.00    0.00      13         __gnu_cxx::new_allocator<int>::new_allocator() [50]
+-----------------------------------------------
+                0.00    0.00      13/13          std::allocator<int>::~allocator() [55]
+[51]     0.0    0.00    0.00      13         __gnu_cxx::new_allocator<int>::~new_allocator() [51]
+-----------------------------------------------
+                0.00    0.00      13/13          __gnu_cxx::new_allocator<int*>::allocate(unsigned long, void const*) [47]
+[52]     0.0    0.00    0.00      13         __gnu_cxx::new_allocator<int*>::_M_max_size() const [52]
+-----------------------------------------------
+                0.00    0.00      13/13          __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) [49]
+[53]     0.0    0.00    0.00      13         __gnu_cxx::new_allocator<int>::_M_max_size() const [53]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_Deque_impl::_Deque_impl() [56]
+[54]     0.0    0.00    0.00      13         std::allocator<int>::allocator() [54]
+                0.00    0.00      13/13          __gnu_cxx::new_allocator<int>::new_allocator() [50]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_Deque_impl::~_Deque_impl() [57]
+[55]     0.0    0.00    0.00      13         std::allocator<int>::~allocator() [55]
+                0.00    0.00      13/13          __gnu_cxx::new_allocator<int>::~new_allocator() [51]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_Deque_base() [66]
+[56]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::_Deque_impl::_Deque_impl() [56]
+                0.00    0.00      13/13          std::allocator<int>::allocator() [54]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_Deque_impl_data::_Deque_impl_data() [60]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::~_Deque_base() [67]
+[57]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::_Deque_impl::~_Deque_impl() [57]
+                0.00    0.00      13/13          std::allocator<int>::~allocator() [55]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_initialize_map(unsigned long) [64]
+[58]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::_M_allocate_map(unsigned long) [58]
+                0.00    0.00      13/26          std::_Deque_base<int, std::allocator<int> >::_M_get_map_allocator() const [31]
+                0.00    0.00      13/13          std::allocator_traits<std::allocator<int*> >::allocate(std::allocator<int*>&, unsigned long) [69]
+                0.00    0.00      13/26          std::allocator<int*>::~allocator() [34]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_initialize_map(unsigned long) [64]
+[59]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::_M_create_nodes(int**, int**) [59]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_allocate_node() [61]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_Deque_impl::_Deque_impl() [56]
+[60]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::_Deque_impl_data::_Deque_impl_data() [60]
+                0.00    0.00      26/26          std::_Deque_iterator<int, int&, int*>::_Deque_iterator() [37]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_create_nodes(int**, int**) [59]
+[61]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::_M_allocate_node() [61]
+                0.00    0.00      13/78          std::__deque_buf_size(unsigned long) [8]
+                0.00    0.00      13/13          std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) [71]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::~_Deque_base() [67]
+[62]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::_M_destroy_nodes(int**, int**) [62]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_deallocate_node(int*) [65]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::~_Deque_base() [67]
+[63]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::_M_deallocate_map(int**, unsigned long) [63]
+                0.00    0.00      13/26          std::_Deque_base<int, std::allocator<int> >::_M_get_map_allocator() const [31]
+                0.00    0.00      13/13          std::allocator_traits<std::allocator<int*> >::deallocate(std::allocator<int*>&, int**, unsigned long) [68]
+                0.00    0.00      13/26          std::allocator<int*>::~allocator() [34]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_Deque_base() [66]
+[64]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::_M_initialize_map(unsigned long) [64]
+                0.00    0.00      26/78          std::__deque_buf_size(unsigned long) [8]
+                0.00    0.00      26/26          std::_Deque_iterator<int, int&, int*>::_M_set_node(int**) [35]
+                0.00    0.00      13/15          unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [44]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_allocate_map(unsigned long) [58]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_create_nodes(int**, int**) [59]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_destroy_nodes(int**, int**) [62]
+[65]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::_M_deallocate_node(int*) [65]
+                0.00    0.00      13/78          std::__deque_buf_size(unsigned long) [8]
+                0.00    0.00      13/13          std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned long) [70]
+-----------------------------------------------
+                0.00    0.00      13/13          std::deque<int, std::allocator<int> >::deque() [73]
+[66]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::_Deque_base() [66]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_Deque_impl::_Deque_impl() [56]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_initialize_map(unsigned long) [64]
+-----------------------------------------------
+                0.00    0.00      13/13          std::deque<int, std::allocator<int> >::~deque() [74]
+[67]     0.0    0.00    0.00      13         std::_Deque_base<int, std::allocator<int> >::~_Deque_base() [67]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_destroy_nodes(int**, int**) [62]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_deallocate_map(int**, unsigned long) [63]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_Deque_impl::~_Deque_impl() [57]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_deallocate_map(int**, unsigned long) [63]
+[68]     0.0    0.00    0.00      13         std::allocator_traits<std::allocator<int*> >::deallocate(std::allocator<int*>&, int**, unsigned long) [68]
+                0.00    0.00      13/13          __gnu_cxx::new_allocator<int*>::deallocate(int**, unsigned long) [46]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_allocate_map(unsigned long) [58]
+[69]     0.0    0.00    0.00      13         std::allocator_traits<std::allocator<int*> >::allocate(std::allocator<int*>&, unsigned long) [69]
+                0.00    0.00      13/13          __gnu_cxx::new_allocator<int*>::allocate(unsigned long, void const*) [47]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_deallocate_node(int*) [65]
+[70]     0.0    0.00    0.00      13         std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned long) [70]
+                0.00    0.00      13/13          __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) [48]
+-----------------------------------------------
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_M_allocate_node() [61]
+[71]     0.0    0.00    0.00      13         std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) [71]
+                0.00    0.00      13/13          __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) [49]
+-----------------------------------------------
+                0.00    0.00      13/13          std::deque<int, std::allocator<int> >::~deque() [74]
+[72]     0.0    0.00    0.00      13         std::deque<int, std::allocator<int> >::_M_destroy_data(std::_Deque_iterator<int, int&, int*>, std::_Deque_iterator<int, int&, int*>, std::allocator<int> const&) [72]
+-----------------------------------------------
+                0.00    0.00       1/13          std::stack<int, std::deque<int, std::allocator<int> > >::stack<std::deque<int, std::allocator<int> >, void>() [166]
+                0.00    0.00      12/13          void std::_Construct<std::deque<int, std::allocator<int> >>(std::deque<int, std::allocator<int> >*) [76]
+[73]     0.0    0.00    0.00      13         std::deque<int, std::allocator<int> >::deque() [73]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::_Deque_base() [66]
+-----------------------------------------------
+                0.00    0.00       1/13          std::stack<int, std::deque<int, std::allocator<int> > >::~stack() [167]
+                0.00    0.00      12/13          void std::_Destroy<std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*) [77]
+[74]     0.0    0.00    0.00      13         std::deque<int, std::allocator<int> >::~deque() [74]
+                0.00    0.00      13/19          std::_Deque_base<int, std::allocator<int> >::_M_get_Tp_allocator() [43]
+                0.00    0.00      13/37          std::deque<int, std::allocator<int> >::end() [23]
+                0.00    0.00      13/31          std::deque<int, std::allocator<int> >::begin() [26]
+                0.00    0.00      13/13          std::deque<int, std::allocator<int> >::_M_destroy_data(std::_Deque_iterator<int, int&, int*>, std::_Deque_iterator<int, int&, int*>, std::allocator<int> const&) [72]
+                0.00    0.00      13/13          std::_Deque_base<int, std::allocator<int> >::~_Deque_base() [67]
+-----------------------------------------------
+                0.00    0.00       6/12          Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00       6/12          Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [88]
+[75]     0.0    0.00    0.00      12         std::_Bit_reference::operator=(bool) [75]
+-----------------------------------------------
+                0.00    0.00      12/12          std::deque<int, std::allocator<int> >* std::__uninitialized_default_n_1<false>::__uninit_default_n<std::deque<int, std::allocator<int> >*, unsigned long>(std::deque<int, std::allocator<int> >*, unsigned long) [128]
+[76]     0.0    0.00    0.00      12         void std::_Construct<std::deque<int, std::allocator<int> >>(std::deque<int, std::allocator<int> >*) [76]
+                0.00    0.00      12/32          operator new(unsigned long, void*) [25]
+                0.00    0.00      12/13          std::deque<int, std::allocator<int> >::deque() [73]
+-----------------------------------------------
+                0.00    0.00      12/12          void std::_Destroy_aux<false>::__destroy<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*) [117]
+[77]     0.0    0.00    0.00      12         void std::_Destroy<std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*) [77]
+                0.00    0.00      12/13          std::deque<int, std::allocator<int> >::~deque() [74]
+-----------------------------------------------
+                0.00    0.00       2/10          __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::allocate(unsigned long, void const*) [106]
+                0.00    0.00       8/10          __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::max_size() const [79]
+[78]     0.0    0.00    0.00      10         __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::_M_max_size() const [78]
+-----------------------------------------------
+                0.00    0.00       8/8           std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::max_size(std::allocator<std::deque<int, std::allocator<int> > > const&) [82]
+[79]     0.0    0.00    0.00       8         __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::max_size() const [79]
+                0.00    0.00       8/10          __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::_M_max_size() const [78]
+-----------------------------------------------
+                0.00    0.00       8/8           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::max_size() const [81]
+[80]     0.0    0.00    0.00       8         std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_get_Tp_allocator() const [80]
+-----------------------------------------------
+                0.00    0.00       4/8           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long) [131]
+                0.00    0.00       4/8           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_check_len(unsigned long, char const*) const [113]
+[81]     0.0    0.00    0.00       8         std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::max_size() const [81]
+                0.00    0.00       8/8           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_max_size(std::allocator<std::deque<int, std::allocator<int> > > const&) [83]
+                0.00    0.00       8/8           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_get_Tp_allocator() const [80]
+-----------------------------------------------
+                0.00    0.00       8/8           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_max_size(std::allocator<std::deque<int, std::allocator<int> > > const&) [83]
+[82]     0.0    0.00    0.00       8         std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::max_size(std::allocator<std::deque<int, std::allocator<int> > > const&) [82]
+                0.00    0.00       8/8           __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::max_size() const [79]
+-----------------------------------------------
+                0.00    0.00       8/8           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::max_size() const [81]
+[83]     0.0    0.00    0.00       8         std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_max_size(std::allocator<std::deque<int, std::allocator<int> > > const&) [83]
+                0.00    0.00       8/8           std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::max_size(std::allocator<std::deque<int, std::allocator<int> > > const&) [82]
+                0.00    0.00       8/8           unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [84]
+-----------------------------------------------
+                0.00    0.00       8/8           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_max_size(std::allocator<std::deque<int, std::allocator<int> > > const&) [83]
+[84]     0.0    0.00    0.00       8         unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [84]
+-----------------------------------------------
+                0.00    0.00       7/7           main [6]
+[85]     0.0    0.00    0.00       7         Graph::addEdge(int, int) [85]
+                0.00    0.00       7/32          std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::operator[](unsigned long) [24]
+                0.00    0.00       7/20          std::deque<int, std::allocator<int> >::push_back(int const&) [42]
+-----------------------------------------------
+                0.00    0.00       7/7           std::stack<int, std::deque<int, std::allocator<int> > >::empty() const [87]
+[86]     0.0    0.00    0.00       7         std::deque<int, std::allocator<int> >::empty() const [86]
+                0.00    0.00       7/46          std::operator==(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&) [10]
+-----------------------------------------------
+                0.00    0.00       7/7           Graph::printSCCs() [145]
+[87]     0.0    0.00    0.00       7         std::stack<int, std::deque<int, std::allocator<int> > >::empty() const [87]
+                0.00    0.00       7/7           std::deque<int, std::allocator<int> >::empty() const [86]
+-----------------------------------------------
+                0.00    0.00       6/6           Graph::printSCCs() [145]
+[88]     0.0    0.00    0.00       6         Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [88]
+                0.00    0.00      13/38          std::vector<bool, std::allocator<bool> >::operator[](unsigned long) [22]
+                0.00    0.00      13/39          std::operator!=(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&) [17]
+                0.00    0.00       7/27          std::_Deque_iterator<int, int&, int*>::operator*() const [27]
+                0.00    0.00       7/26          std::_Bit_reference::operator bool() const [32]
+                0.00    0.00       7/21          std::_Deque_iterator<int, int&, int*>::operator++() [39]
+                0.00    0.00       6/12          std::_Bit_reference::operator=(bool) [75]
+                0.00    0.00       6/32          std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::operator[](unsigned long) [24]
+                0.00    0.00       6/31          std::deque<int, std::allocator<int> >::begin() [26]
+                0.00    0.00       6/37          std::deque<int, std::allocator<int> >::end() [23]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::allocator_traits<std::allocator<int> >::destroy<int>(std::allocator<int>&, int*) [92]
+[89]     0.0    0.00    0.00       6         void __gnu_cxx::new_allocator<int>::destroy<int>(int*) [89]
+-----------------------------------------------
+                0.00    0.00       2/6           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~vector() [134]
+                0.00    0.00       4/6           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long) [131]
+[90]     0.0    0.00    0.00       6         std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_get_Tp_allocator() [90]
+-----------------------------------------------
+                0.00    0.00       6/6           std::deque<int, std::allocator<int> >::back() [93]
+[91]     0.0    0.00    0.00       6         std::_Deque_iterator<int, int&, int*>::operator--() [91]
+-----------------------------------------------
+                0.00    0.00       6/6           std::deque<int, std::allocator<int> >::pop_back() [94]
+[92]     0.0    0.00    0.00       6         void std::allocator_traits<std::allocator<int> >::destroy<int>(std::allocator<int>&, int*) [92]
+                0.00    0.00       6/6           void __gnu_cxx::new_allocator<int>::destroy<int>(int*) [89]
+-----------------------------------------------
+                0.00    0.00       6/6           std::stack<int, std::deque<int, std::allocator<int> > >::top() [96]
+[93]     0.0    0.00    0.00       6         std::deque<int, std::allocator<int> >::back() [93]
+                0.00    0.00       6/6           std::_Deque_iterator<int, int&, int*>::operator--() [91]
+                0.00    0.00       6/37          std::deque<int, std::allocator<int> >::end() [23]
+                0.00    0.00       6/27          std::_Deque_iterator<int, int&, int*>::operator*() const [27]
+-----------------------------------------------
+                0.00    0.00       6/6           std::stack<int, std::deque<int, std::allocator<int> > >::pop() [95]
+[94]     0.0    0.00    0.00       6         std::deque<int, std::allocator<int> >::pop_back() [94]
+                0.00    0.00       6/6           void std::allocator_traits<std::allocator<int> >::destroy<int>(std::allocator<int>&, int*) [92]
+                0.00    0.00       6/19          std::_Deque_base<int, std::allocator<int> >::_M_get_Tp_allocator() [43]
+-----------------------------------------------
+                0.00    0.00       6/6           Graph::printSCCs() [145]
+[95]     0.0    0.00    0.00       6         std::stack<int, std::deque<int, std::allocator<int> > >::pop() [95]
+                0.00    0.00       6/6           std::deque<int, std::allocator<int> >::pop_back() [94]
+-----------------------------------------------
+                0.00    0.00       6/6           Graph::printSCCs() [145]
+[96]     0.0    0.00    0.00       6         std::stack<int, std::deque<int, std::allocator<int> > >::top() [96]
+                0.00    0.00       6/6           std::deque<int, std::allocator<int> >::back() [93]
+-----------------------------------------------
+                0.00    0.00       6/6           Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+[97]     0.0    0.00    0.00       6         std::stack<int, std::deque<int, std::allocator<int> > >::push(int const&) [97]
+                0.00    0.00       6/20          std::deque<int, std::allocator<int> >::push_back(int const&) [42]
+-----------------------------------------------
+                0.00    0.00       6/6           std::deque<int, std::allocator<int> >* std::__relocate_a<std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [135]
+[98]     0.0    0.00    0.00       6         std::deque<int, std::allocator<int> >* std::__niter_base<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*) [98]
+-----------------------------------------------
+                0.00    0.00       2/4           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~_Vector_base() [123]
+                0.00    0.00       2/4           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long) [131]
+[99]     0.0    0.00    0.00       4         std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_deallocate(std::deque<int, std::allocator<int> >*, unsigned long) [99]
+                0.00    0.00       2/2           std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::deallocate(std::allocator<std::deque<int, std::allocator<int> > >&, std::deque<int, std::allocator<int> >*, unsigned long) [126]
+-----------------------------------------------
+                0.00    0.00       4/4           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data() [124]
+[100]    0.0    0.00    0.00       4         std::_Bit_iterator::_Bit_iterator() [100]
+                0.00    0.00       4/44          std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) [11]
+-----------------------------------------------
+                0.00    0.00       1/3           std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [169]
+                0.00    0.00       2/3           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [174]
+[101]    0.0    0.00    0.00       3         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [101]
+-----------------------------------------------
+                0.00    0.00       1/3           std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned long) [175]
+                0.00    0.00       2/3           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const [110]
+[102]    0.0    0.00    0.00       3         unsigned long* std::__addressof<unsigned long>(unsigned long&) [102]
+-----------------------------------------------
+                0.00    0.00       1/2           Graph::getTransposeGraph() [143]
+                0.00    0.00       1/2           main [6]
+[103]    0.0    0.00    0.00       2         Graph::Graph(int) [103]
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::vector() [133]
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::resize(unsigned long) [132]
+-----------------------------------------------
+                0.00    0.00       1/2           Graph::printSCCs() [145]
+                0.00    0.00       1/2           main [6]
+[104]    0.0    0.00    0.00       2         Graph::~Graph() [104]
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~vector() [134]
+-----------------------------------------------
+                0.00    0.00       2/2           std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::deallocate(std::allocator<std::deque<int, std::allocator<int> > >&, std::deque<int, std::allocator<int> >*, unsigned long) [126]
+[105]    0.0    0.00    0.00       2         __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::deallocate(std::deque<int, std::allocator<int> >*, unsigned long) [105]
+-----------------------------------------------
+                0.00    0.00       2/2           std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::allocate(std::allocator<std::deque<int, std::allocator<int> > >&, unsigned long) [127]
+[106]    0.0    0.00    0.00       2         __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::allocate(unsigned long, void const*) [106]
+                0.00    0.00       2/10          __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::_M_max_size() const [78]
+-----------------------------------------------
+                0.00    0.00       2/2           std::allocator<std::deque<int, std::allocator<int> > >::allocator() [114]
+[107]    0.0    0.00    0.00       2         __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::new_allocator() [107]
+-----------------------------------------------
+                0.00    0.00       2/2           std::allocator<std::deque<int, std::allocator<int> > >::~allocator() [115]
+[108]    0.0    0.00    0.00       2         __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::~new_allocator() [108]
+-----------------------------------------------
+                0.00    0.00       2/2           std::allocator<unsigned long>::~allocator() [116]
+[109]    0.0    0.00    0.00       2         __gnu_cxx::new_allocator<unsigned long>::~new_allocator() [109]
+-----------------------------------------------
+                0.00    0.00       1/2           std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool) [176]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [160]
+[110]    0.0    0.00    0.00       2         std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const [110]
+                0.00    0.00       2/3           unsigned long* std::__addressof<unsigned long>(unsigned long&) [102]
+-----------------------------------------------
+                0.00    0.00       2/2           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [173]
+[111]    0.0    0.00    0.00       2         std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [111]
+-----------------------------------------------
+                0.00    0.00       1/2           double measureTime<main::{lambda()#1}>(main::{lambda()#1}) [141]
+                0.00    0.00       1/2           std::chrono::duration<double, std::ratio<1l, 1l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [170]
+[112]    0.0    0.00    0.00       2         std::chrono::duration<double, std::ratio<1l, 1l> >::count() const [112]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long) [131]
+[113]    0.0    0.00    0.00       2         std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_check_len(unsigned long, char const*) const [113]
+                0.00    0.00       8/14          std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::size() const [45]
+                0.00    0.00       4/8           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::max_size() const [81]
+                0.00    0.00       2/15          unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [44]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl::_Vector_impl() [119]
+[114]    0.0    0.00    0.00       2         std::allocator<std::deque<int, std::allocator<int> > >::allocator() [114]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::new_allocator() [107]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl::~_Vector_impl() [120]
+[115]    0.0    0.00    0.00       2         std::allocator<std::deque<int, std::allocator<int> > >::~allocator() [115]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::~new_allocator() [108]
+-----------------------------------------------
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl() [159]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [162]
+[116]    0.0    0.00    0.00       2         std::allocator<unsigned long>::~allocator() [116]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<unsigned long>::~new_allocator() [109]
+-----------------------------------------------
+                0.00    0.00       2/2           void std::_Destroy<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*) [139]
+[117]    0.0    0.00    0.00       2         void std::_Destroy_aux<false>::__destroy<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*) [117]
+                0.00    0.00      12/12          void std::_Destroy<std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*) [77]
+                0.00    0.00      12/24          std::deque<int, std::allocator<int> >* std::__addressof<std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >&) [38]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long) [131]
+[118]    0.0    0.00    0.00       2         std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_allocate(unsigned long) [118]
+                0.00    0.00       2/2           std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::allocate(std::allocator<std::deque<int, std::allocator<int> > >&, unsigned long) [127]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_base() [122]
+[119]    0.0    0.00    0.00       2         std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl::_Vector_impl() [119]
+                0.00    0.00       2/2           std::allocator<std::deque<int, std::allocator<int> > >::allocator() [114]
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl_data::_Vector_impl_data() [121]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~_Vector_base() [123]
+[120]    0.0    0.00    0.00       2         std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl::~_Vector_impl() [120]
+                0.00    0.00       2/2           std::allocator<std::deque<int, std::allocator<int> > >::~allocator() [115]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl::_Vector_impl() [119]
+[121]    0.0    0.00    0.00       2         std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl_data::_Vector_impl_data() [121]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::vector() [133]
+[122]    0.0    0.00    0.00       2         std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_base() [122]
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl::_Vector_impl() [119]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~vector() [134]
+[123]    0.0    0.00    0.00       2         std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~_Vector_base() [123]
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl::~_Vector_impl() [120]
+                0.00    0.00       2/4           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_deallocate(std::deque<int, std::allocator<int> >*, unsigned long) [99]
+-----------------------------------------------
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&) [158]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset() [161]
+[124]    0.0    0.00    0.00       2         std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data() [124]
+                0.00    0.00       4/4           std::_Bit_iterator::_Bit_iterator() [100]
+-----------------------------------------------
+                0.00    0.00       1/2           std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned long) [175]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned long) [157]
+[125]    0.0    0.00    0.00       2         std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned long) [125]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_deallocate(std::deque<int, std::allocator<int> >*, unsigned long) [99]
+[126]    0.0    0.00    0.00       2         std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::deallocate(std::allocator<std::deque<int, std::allocator<int> > >&, std::deque<int, std::allocator<int> >*, unsigned long) [126]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::deallocate(std::deque<int, std::allocator<int> >*, unsigned long) [105]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_allocate(unsigned long) [118]
+[127]    0.0    0.00    0.00       2         std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::allocate(std::allocator<std::deque<int, std::allocator<int> > >&, unsigned long) [127]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::allocate(unsigned long, void const*) [106]
+-----------------------------------------------
+                0.00    0.00       2/2           std::deque<int, std::allocator<int> >* std::__uninitialized_default_n<std::deque<int, std::allocator<int> >*, unsigned long>(std::deque<int, std::allocator<int> >*, unsigned long) [137]
+[128]    0.0    0.00    0.00       2         std::deque<int, std::allocator<int> >* std::__uninitialized_default_n_1<false>::__uninit_default_n<std::deque<int, std::allocator<int> >*, unsigned long>(std::deque<int, std::allocator<int> >*, unsigned long) [128]
+                0.00    0.00      12/24          std::deque<int, std::allocator<int> >* std::__addressof<std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >&) [38]
+                0.00    0.00      12/12          void std::_Construct<std::deque<int, std::allocator<int> >>(std::deque<int, std::allocator<int> >*) [76]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long) [131]
+[129]    0.0    0.00    0.00       2         std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_relocate(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [129]
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_do_relocate(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&, std::integral_constant<bool, true>) [130]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_relocate(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [129]
+[130]    0.0    0.00    0.00       2         std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_do_relocate(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&, std::integral_constant<bool, true>) [130]
+                0.00    0.00       2/2           std::deque<int, std::allocator<int> >* std::__relocate_a<std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [135]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::resize(unsigned long) [132]
+[131]    0.0    0.00    0.00       2         std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long) [131]
+                0.00    0.00       4/8           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::max_size() const [81]
+                0.00    0.00       4/6           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_get_Tp_allocator() [90]
+                0.00    0.00       2/14          std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::size() const [45]
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_check_len(unsigned long, char const*) const [113]
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_allocate(unsigned long) [118]
+                0.00    0.00       2/2           std::deque<int, std::allocator<int> >* std::__uninitialized_default_n_a<std::deque<int, std::allocator<int> >*, unsigned long, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, unsigned long, std::allocator<std::deque<int, std::allocator<int> > >&) [138]
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_relocate(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [129]
+                0.00    0.00       2/4           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_deallocate(std::deque<int, std::allocator<int> >*, unsigned long) [99]
+-----------------------------------------------
+                0.00    0.00       2/2           Graph::Graph(int) [103]
+[132]    0.0    0.00    0.00       2         std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::resize(unsigned long) [132]
+                0.00    0.00       4/14          std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::size() const [45]
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long) [131]
+-----------------------------------------------
+                0.00    0.00       2/2           Graph::Graph(int) [103]
+[133]    0.0    0.00    0.00       2         std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::vector() [133]
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_base() [122]
+-----------------------------------------------
+                0.00    0.00       2/2           Graph::~Graph() [104]
+[134]    0.0    0.00    0.00       2         std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~vector() [134]
+                0.00    0.00       2/6           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_get_Tp_allocator() [90]
+                0.00    0.00       2/2           std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~_Vector_base() [123]
+                0.00    0.00       2/2           void std::_Destroy<std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [140]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_do_relocate(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&, std::integral_constant<bool, true>) [130]
+[135]    0.0    0.00    0.00       2         std::deque<int, std::allocator<int> >* std::__relocate_a<std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [135]
+                0.00    0.00       6/6           std::deque<int, std::allocator<int> >* std::__niter_base<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*) [98]
+                0.00    0.00       2/2           std::enable_if<std::__is_bitwise_relocatable<std::deque<int, std::allocator<int> >, void>::value, std::deque<int, std::allocator<int> >*>::type std::__relocate_a_1<std::deque<int, std::allocator<int> >, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [136]
+-----------------------------------------------
+                0.00    0.00       2/2           std::deque<int, std::allocator<int> >* std::__relocate_a<std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [135]
+[136]    0.0    0.00    0.00       2         std::enable_if<std::__is_bitwise_relocatable<std::deque<int, std::allocator<int> >, void>::value, std::deque<int, std::allocator<int> >*>::type std::__relocate_a_1<std::deque<int, std::allocator<int> >, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [136]
+-----------------------------------------------
+                0.00    0.00       2/2           std::deque<int, std::allocator<int> >* std::__uninitialized_default_n_a<std::deque<int, std::allocator<int> >*, unsigned long, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, unsigned long, std::allocator<std::deque<int, std::allocator<int> > >&) [138]
+[137]    0.0    0.00    0.00       2         std::deque<int, std::allocator<int> >* std::__uninitialized_default_n<std::deque<int, std::allocator<int> >*, unsigned long>(std::deque<int, std::allocator<int> >*, unsigned long) [137]
+                0.00    0.00       2/2           std::deque<int, std::allocator<int> >* std::__uninitialized_default_n_1<false>::__uninit_default_n<std::deque<int, std::allocator<int> >*, unsigned long>(std::deque<int, std::allocator<int> >*, unsigned long) [128]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long) [131]
+[138]    0.0    0.00    0.00       2         std::deque<int, std::allocator<int> >* std::__uninitialized_default_n_a<std::deque<int, std::allocator<int> >*, unsigned long, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, unsigned long, std::allocator<std::deque<int, std::allocator<int> > >&) [138]
+                0.00    0.00       2/2           std::deque<int, std::allocator<int> >* std::__uninitialized_default_n<std::deque<int, std::allocator<int> >*, unsigned long>(std::deque<int, std::allocator<int> >*, unsigned long) [137]
+-----------------------------------------------
+                0.00    0.00       2/2           void std::_Destroy<std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [140]
+[139]    0.0    0.00    0.00       2         void std::_Destroy<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*) [139]
+                0.00    0.00       2/2           void std::_Destroy_aux<false>::__destroy<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*) [117]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~vector() [134]
+[140]    0.0    0.00    0.00       2         void std::_Destroy<std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&) [140]
+                0.00    0.00       2/2           void std::_Destroy<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*) [139]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[141]    0.0    0.00    0.00       1         double measureTime<main::{lambda()#1}>(main::{lambda()#1}) [141]
+                0.00    0.00       1/1           main::{lambda()#1}::operator()() const [184]
+                0.00    0.00       1/1           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [173]
+                0.00    0.00       1/1           std::chrono::duration<double, std::ratio<1l, 1l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [170]
+                0.00    0.00       1/2           std::chrono::duration<double, std::ratio<1l, 1l> >::count() const [112]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN5GraphC2Ei [185]
+[142]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [142]
+-----------------------------------------------
+                0.00    0.00       1/1           Graph::printSCCs() [145]
+[143]    0.0    0.00    0.00       1         Graph::getTransposeGraph() [143]
+                0.00    0.00      13/32          std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::operator[](unsigned long) [24]
+                0.00    0.00      13/39          std::operator!=(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&) [17]
+                0.00    0.00       7/27          std::_Deque_iterator<int, int&, int*>::operator*() const [27]
+                0.00    0.00       7/20          std::deque<int, std::allocator<int> >::push_back(int const&) [42]
+                0.00    0.00       7/21          std::_Deque_iterator<int, int&, int*>::operator++() [39]
+                0.00    0.00       6/31          std::deque<int, std::allocator<int> >::begin() [26]
+                0.00    0.00       6/37          std::deque<int, std::allocator<int> >::end() [23]
+                0.00    0.00       1/2           Graph::Graph(int) [103]
+-----------------------------------------------
+                                   5             Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00       1/1           Graph::printSCCs() [145]
+[144]    0.0    0.00    0.00       1+5       Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00      13/38          std::vector<bool, std::allocator<bool> >::operator[](unsigned long) [22]
+                0.00    0.00      13/39          std::operator!=(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&) [17]
+                0.00    0.00       7/27          std::_Deque_iterator<int, int&, int*>::operator*() const [27]
+                0.00    0.00       7/26          std::_Bit_reference::operator bool() const [32]
+                0.00    0.00       7/21          std::_Deque_iterator<int, int&, int*>::operator++() [39]
+                0.00    0.00       6/12          std::_Bit_reference::operator=(bool) [75]
+                0.00    0.00       6/32          std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::operator[](unsigned long) [24]
+                0.00    0.00       6/31          std::deque<int, std::allocator<int> >::begin() [26]
+                0.00    0.00       6/37          std::deque<int, std::allocator<int> >::end() [23]
+                0.00    0.00       6/6           std::stack<int, std::deque<int, std::allocator<int> > >::push(int const&) [97]
+                                   5             Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+-----------------------------------------------
+                0.00    0.00       1/1           main::{lambda()#1}::operator()() const [184]
+[145]    0.0    0.00    0.00       1         Graph::printSCCs() [145]
+                0.00    0.00      12/38          std::vector<bool, std::allocator<bool> >::operator[](unsigned long) [22]
+                0.00    0.00      12/26          std::_Bit_reference::operator bool() const [32]
+                0.00    0.00       7/7           std::stack<int, std::deque<int, std::allocator<int> > >::empty() const [87]
+                0.00    0.00       6/6           std::stack<int, std::deque<int, std::allocator<int> > >::top() [96]
+                0.00    0.00       6/6           std::stack<int, std::deque<int, std::allocator<int> > >::pop() [95]
+                0.00    0.00       6/6           Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [88]
+                0.00    0.00       1/1           std::stack<int, std::deque<int, std::allocator<int> > >::stack<std::deque<int, std::allocator<int> >, void>() [166]
+                0.00    0.00       1/1           std::allocator<bool>::allocator() [153]
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::vector(unsigned long, bool const&, std::allocator<bool> const&) [178]
+                0.00    0.00       1/1           std::allocator<bool>::~allocator() [154]
+                0.00    0.00       1/1           Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [144]
+                0.00    0.00       1/1           Graph::getTransposeGraph() [143]
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::end() [177]
+                0.00    0.00       1/39          std::vector<bool, std::allocator<bool> >::begin() [16]
+                0.00    0.00       1/1           void std::fill<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&) [181]
+                0.00    0.00       1/2           Graph::~Graph() [104]
+                0.00    0.00       1/1           std::stack<int, std::deque<int, std::allocator<int> > >::~stack() [167]
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::~vector() [179]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<bool>::allocator() [153]
+[146]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<bool>::new_allocator() [146]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<bool>::~allocator() [154]
+[147]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<bool>::~new_allocator() [147]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned long) [164]
+[148]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned long) [148]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned long) [165]
+[149]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned long, void const*) [149]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::_M_max_size() const [152]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&) [156]
+[150]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<unsigned long>::new_allocator(__gnu_cxx::new_allocator<unsigned long> const&) [150]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&) [155]
+[151]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<unsigned long>::new_allocator() [151]
+-----------------------------------------------
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned long, void const*) [149]
+[152]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<unsigned long>::_M_max_size() const [152]
+-----------------------------------------------
+                0.00    0.00       1/1           Graph::printSCCs() [145]
+[153]    0.0    0.00    0.00       1         std::allocator<bool>::allocator() [153]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<bool>::new_allocator() [146]
+-----------------------------------------------
+                0.00    0.00       1/1           Graph::printSCCs() [145]
+[154]    0.0    0.00    0.00       1         std::allocator<bool>::~allocator() [154]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<bool>::~new_allocator() [147]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [162]
+[155]    0.0    0.00    0.00       1         std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&) [155]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::new_allocator() [151]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&) [158]
+[156]    0.0    0.00    0.00       1         std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&) [156]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::new_allocator(__gnu_cxx::new_allocator<unsigned long> const&) [150]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned long) [175]
+[157]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned long) [157]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned long) [125]
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned long) [165]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [162]
+[158]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&) [158]
+                0.00    0.00       1/1           std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&) [156]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data() [124]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::~_Bvector_base() [163]
+[159]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl() [159]
+                0.00    0.00       1/2           std::allocator<unsigned long>::~allocator() [116]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::~_Bvector_base() [163]
+[160]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [160]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const [110]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset() [161]
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned long) [164]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [160]
+[161]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset() [161]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data() [124]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::vector(unsigned long, bool const&, std::allocator<bool> const&) [178]
+[162]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [162]
+                0.00    0.00       1/1           std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&) [155]
+                0.00    0.00       1/2           std::allocator<unsigned long>::~allocator() [116]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&) [158]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::~vector() [179]
+[163]    0.0    0.00    0.00       1         std::_Bvector_base<std::allocator<bool> >::~_Bvector_base() [163]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [160]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl() [159]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [160]
+[164]    0.0    0.00    0.00       1         std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned long) [164]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned long) [148]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned long) [157]
+[165]    0.0    0.00    0.00       1         std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned long) [165]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned long, void const*) [149]
+-----------------------------------------------
+                0.00    0.00       1/1           Graph::printSCCs() [145]
+[166]    0.0    0.00    0.00       1         std::stack<int, std::deque<int, std::allocator<int> > >::stack<std::deque<int, std::allocator<int> >, void>() [166]
+                0.00    0.00       1/13          std::deque<int, std::allocator<int> >::deque() [73]
+-----------------------------------------------
+                0.00    0.00       1/1           Graph::printSCCs() [145]
+[167]    0.0    0.00    0.00       1         std::stack<int, std::deque<int, std::allocator<int> > >::~stack() [167]
+                0.00    0.00       1/13          std::deque<int, std::allocator<int> >::~deque() [74]
+-----------------------------------------------
+                0.00    0.00       1/1           std::chrono::duration<double, std::ratio<1l, 1l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [170]
+[168]    0.0    0.00    0.00       1         std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1l> > >::value, std::chrono::duration<double, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [168]
+                0.00    0.00       1/1           std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [169]
+-----------------------------------------------
+                0.00    0.00       1/1           std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1l> > >::value, std::chrono::duration<double, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [168]
+[169]    0.0    0.00    0.00       1         std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [169]
+                0.00    0.00       1/3           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [101]
+                0.00    0.00       1/1           std::chrono::duration<double, std::ratio<1l, 1l> >::duration<double, void>(double const&) [171]
+-----------------------------------------------
+                0.00    0.00       1/1           double measureTime<main::{lambda()#1}>(main::{lambda()#1}) [141]
+[170]    0.0    0.00    0.00       1         std::chrono::duration<double, std::ratio<1l, 1l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [170]
+                0.00    0.00       1/1           std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1l> > >::value, std::chrono::duration<double, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [168]
+                0.00    0.00       1/2           std::chrono::duration<double, std::ratio<1l, 1l> >::count() const [112]
+-----------------------------------------------
+                0.00    0.00       1/1           std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [169]
+[171]    0.0    0.00    0.00       1         std::chrono::duration<double, std::ratio<1l, 1l> >::duration<double, void>(double const&) [171]
+-----------------------------------------------
+                0.00    0.00       1/1           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [174]
+[172]    0.0    0.00    0.00       1         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [172]
+-----------------------------------------------
+                0.00    0.00       1/1           double measureTime<main::{lambda()#1}>(main::{lambda()#1}) [141]
+[173]    0.0    0.00    0.00       1         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [173]
+                0.00    0.00       2/2           std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [111]
+                0.00    0.00       1/1           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [174]
+-----------------------------------------------
+                0.00    0.00       1/1           std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [173]
+[174]    0.0    0.00    0.00       1         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [174]
+                0.00    0.00       2/3           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [101]
+                0.00    0.00       1/1           std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [172]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::vector(unsigned long, bool const&, std::allocator<bool> const&) [178]
+[175]    0.0    0.00    0.00       1         std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned long) [175]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned long) [157]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned long) [125]
+                0.00    0.00       1/3           unsigned long* std::__addressof<unsigned long>(unsigned long&) [102]
+                0.00    0.00       1/40          std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) [12]
+                0.00    0.00       1/39          std::operator+(std::_Bit_iterator const&, long) [18]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::vector(unsigned long, bool const&, std::allocator<bool> const&) [178]
+[176]    0.0    0.00    0.00       1         std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool) [176]
+                0.00    0.00       1/2           std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const [110]
+-----------------------------------------------
+                0.00    0.00       1/1           Graph::printSCCs() [145]
+[177]    0.0    0.00    0.00       1         std::vector<bool, std::allocator<bool> >::end() [177]
+-----------------------------------------------
+                0.00    0.00       1/1           Graph::printSCCs() [145]
+[178]    0.0    0.00    0.00       1         std::vector<bool, std::allocator<bool> >::vector(unsigned long, bool const&, std::allocator<bool> const&) [178]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [162]
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned long) [175]
+                0.00    0.00       1/1           std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool) [176]
+-----------------------------------------------
+                0.00    0.00       1/1           Graph::printSCCs() [145]
+[179]    0.0    0.00    0.00       1         std::vector<bool, std::allocator<bool> >::~vector() [179]
+                0.00    0.00       1/1           std::_Bvector_base<std::allocator<bool> >::~_Bvector_base() [163]
+-----------------------------------------------
+                0.00    0.00       1/1           std::__fill_a1(std::_Bit_iterator, std::_Bit_iterator, bool const&) [183]
+[180]    0.0    0.00    0.00       1         std::__fill_bvector(unsigned long*, unsigned int, unsigned int, bool) [180]
+-----------------------------------------------
+                0.00    0.00       1/1           Graph::printSCCs() [145]
+[181]    0.0    0.00    0.00       1         void std::fill<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&) [181]
+                0.00    0.00       1/1           void std::__fill_a<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&) [182]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::fill<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&) [181]
+[182]    0.0    0.00    0.00       1         void std::__fill_a<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&) [182]
+                0.00    0.00       1/1           std::__fill_a1(std::_Bit_iterator, std::_Bit_iterator, bool const&) [183]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::__fill_a<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&) [182]
+[183]    0.0    0.00    0.00       1         std::__fill_a1(std::_Bit_iterator, std::_Bit_iterator, bool const&) [183]
+                0.00    0.00       1/1           std::__fill_bvector(unsigned long*, unsigned int, unsigned int, bool) [180]
+-----------------------------------------------
+                0.00    0.00       1/1           double measureTime<main::{lambda()#1}>(main::{lambda()#1}) [141]
+[184]    0.0    0.00    0.00       1         main::{lambda()#1}::operator()() const [184]
+                0.00    0.00       1/1           Graph::printSCCs() [145]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [141] double measureTime<main::{lambda()#1}>(main::{lambda()#1}) (kosaraju_scc.cpp) [155] std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&) [72] std::deque<int, std::allocator<int> >::_M_destroy_data(std::_Deque_iterator<int, int&, int*>, std::_Deque_iterator<int, int&, int*>, std::allocator<int> const&)
+ [142] __static_initialization_and_destruction_0(int, int) (kosaraju_scc.cpp) [156] std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&) [23] std::deque<int, std::allocator<int> >::end()
+ [143] Graph::getTransposeGraph() [116] std::allocator<unsigned long>::~allocator() [93] std::deque<int, std::allocator<int> >::back()
+ [144] Graph::DFS(int, std::vector<bool, std::allocator<bool> >&, std::stack<int, std::deque<int, std::allocator<int> > >&) [56] std::_Deque_base<int, std::allocator<int> >::_Deque_impl::_Deque_impl() [26] std::deque<int, std::allocator<int> >::begin()
+  [85] Graph::addEdge(int, int) [57] std::_Deque_base<int, std::allocator<int> >::_Deque_impl::~_Deque_impl() [94] std::deque<int, std::allocator<int> >::pop_back()
+  [88] Graph::DFSPrint(int, std::vector<bool, std::allocator<bool> >&) [58] std::_Deque_base<int, std::allocator<int> >::_M_allocate_map(unsigned long) [42] std::deque<int, std::allocator<int> >::push_back(int const&)
+ [145] Graph::printSCCs()     [59] std::_Deque_base<int, std::allocator<int> >::_M_create_nodes(int**, int**) [73] std::deque<int, std::allocator<int> >::deque()
+ [103] Graph::Graph(int)      [60] std::_Deque_base<int, std::allocator<int> >::_Deque_impl_data::_Deque_impl_data() [74] std::deque<int, std::allocator<int> >::~deque()
+ [104] Graph::~Graph()        [61] std::_Deque_base<int, std::allocator<int> >::_M_allocate_node() [95] std::stack<int, std::deque<int, std::allocator<int> > >::pop()
+  [46] __gnu_cxx::new_allocator<int*>::deallocate(int**, unsigned long) [62] std::_Deque_base<int, std::allocator<int> >::_M_destroy_nodes(int**, int**) [96] std::stack<int, std::deque<int, std::allocator<int> > >::top()
+  [47] __gnu_cxx::new_allocator<int*>::allocate(unsigned long, void const*) [63] std::_Deque_base<int, std::allocator<int> >::_M_deallocate_map(int**, unsigned long) [97] std::stack<int, std::deque<int, std::allocator<int> > >::push(int const&)
+  [28] __gnu_cxx::new_allocator<int*>::new_allocator() [64] std::_Deque_base<int, std::allocator<int> >::_M_initialize_map(unsigned long) [166] std::stack<int, std::deque<int, std::allocator<int> > >::stack<std::deque<int, std::allocator<int> >, void>()
+  [29] __gnu_cxx::new_allocator<int*>::~new_allocator() [65] std::_Deque_base<int, std::allocator<int> >::_M_deallocate_node(int*) [167] std::stack<int, std::deque<int, std::allocator<int> > >::~stack()
+ [105] __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::deallocate(std::deque<int, std::allocator<int> >*, unsigned long) [43] std::_Deque_base<int, std::allocator<int> >::_M_get_Tp_allocator() [168] std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1l> > >::value, std::chrono::duration<double, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+ [106] __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::allocate(unsigned long, void const*) [66] std::_Deque_base<int, std::allocator<int> >::_Deque_base() [169] std::chrono::duration<double, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+ [107] __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::new_allocator() [67] std::_Deque_base<int, std::allocator<int> >::~_Deque_base() [170] std::chrono::duration<double, std::ratio<1l, 1l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+ [108] __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::~new_allocator() [117] void std::_Destroy_aux<false>::__destroy<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*) [171] std::chrono::duration<double, std::ratio<1l, 1l> >::duration<double, void>(double const&)
+ [146] __gnu_cxx::new_allocator<bool>::new_allocator() [118] std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_allocate(unsigned long) [172] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+ [147] __gnu_cxx::new_allocator<bool>::~new_allocator() [119] std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl::_Vector_impl() [173] std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+  [48] __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) [120] std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl::~_Vector_impl() [174] std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  [89] void __gnu_cxx::new_allocator<int>::destroy<int>(int*) [99] std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_deallocate(std::deque<int, std::allocator<int> >*, unsigned long) [83] std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_max_size(std::allocator<std::deque<int, std::allocator<int> > > const&)
+  [49] __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) [121] std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_impl_data::_Vector_impl_data() [129] std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_relocate(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&)
+  [40] void __gnu_cxx::new_allocator<int>::construct<int, int const&>(int*, int const&) [90] std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_get_Tp_allocator() [130] std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_S_do_relocate(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&, std::integral_constant<bool, true>)
+  [50] __gnu_cxx::new_allocator<int>::new_allocator() [122] std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_Vector_base() [131] std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_default_append(unsigned long)
+  [51] __gnu_cxx::new_allocator<int>::~new_allocator() [123] std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~_Vector_base() [132] std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::resize(unsigned long)
+ [148] __gnu_cxx::new_allocator<unsigned long>::deallocate(unsigned long*, unsigned long) [12] std::_Bit_iterator::_Bit_iterator(unsigned long*, unsigned int) [133] std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::vector()
+ [149] __gnu_cxx::new_allocator<unsigned long>::allocate(unsigned long, void const*) [100] std::_Bit_iterator::_Bit_iterator() [134] std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::~vector()
+ [150] __gnu_cxx::new_allocator<unsigned long>::new_allocator(__gnu_cxx::new_allocator<unsigned long> const&) [14] std::_Bit_iterator::operator+=(long) [24] std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::operator[](unsigned long)
+ [151] __gnu_cxx::new_allocator<unsigned long>::new_allocator() [157] std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned long) [175] std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned long)
+ [109] __gnu_cxx::new_allocator<unsigned long>::~new_allocator() [158] std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&) [176] std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool)
+  [52] __gnu_cxx::new_allocator<int*>::_M_max_size() const [159] std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl() [177] std::vector<bool, std::allocator<bool> >::end()
+  [78] __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::_M_max_size() const [160] std::_Bvector_base<std::allocator<bool> >::_M_deallocate() [16] std::vector<bool, std::allocator<bool> >::begin()
+  [79] __gnu_cxx::new_allocator<std::deque<int, std::allocator<int> > >::max_size() const [161] std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset() [178] std::vector<bool, std::allocator<bool> >::vector(unsigned long, bool const&, std::allocator<bool> const&)
+  [53] __gnu_cxx::new_allocator<int>::_M_max_size() const [124] std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data() [179] std::vector<bool, std::allocator<bool> >::~vector()
+ [152] __gnu_cxx::new_allocator<unsigned long>::_M_max_size() const [125] std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned long) [22] std::vector<bool, std::allocator<bool> >::operator[](unsigned long)
+  [30] std::_Deque_base<int, std::allocator<int> >::_M_get_Tp_allocator() const [162] std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&) [76] void std::_Construct<std::deque<int, std::allocator<int> >>(std::deque<int, std::allocator<int> >*)
+  [31] std::_Deque_base<int, std::allocator<int> >::_M_get_map_allocator() const [163] std::_Bvector_base<std::allocator<bool> >::~_Bvector_base() [38] std::deque<int, std::allocator<int> >* std::__addressof<std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >&)
+  [80] std::_Vector_base<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_get_Tp_allocator() const [21] std::_Bit_reference::_Bit_reference(unsigned long*, unsigned long) [102] unsigned long* std::__addressof<unsigned long>(unsigned long&)
+  [19] std::_Bit_iterator::operator*() const [75] std::_Bit_reference::operator=(bool) [98] std::deque<int, std::allocator<int> >* std::__niter_base<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*)
+  [20] std::_Bit_iterator::operator[](long) const [35] std::_Deque_iterator<int, int&, int*>::_M_set_node(int**) [135] std::deque<int, std::allocator<int> >* std::__relocate_a<std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&)
+ [110] std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const [36] std::_Deque_iterator<int, int&, int*>::_S_buffer_size() [180] std::__fill_bvector(unsigned long*, unsigned int, unsigned int, bool)
+  [32] std::_Bit_reference::operator bool() const [9] std::_Deque_iterator<int, int&, int*>::_Deque_iterator(std::_Deque_iterator<int, int&, int*> const&) [136] std::enable_if<std::__is_bitwise_relocatable<std::deque<int, std::allocator<int> >, void>::value, std::deque<int, std::allocator<int> >*>::type std::__relocate_a_1<std::deque<int, std::allocator<int> >, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&)
+  [27] std::_Deque_iterator<int, int&, int*>::operator*() const [37] std::_Deque_iterator<int, int&, int*>::_Deque_iterator() [8] std::__deque_buf_size(unsigned long)
+  [86] std::deque<int, std::allocator<int> >::empty() const [91] std::_Deque_iterator<int, int&, int*>::operator--() [137] std::deque<int, std::allocator<int> >* std::__uninitialized_default_n<std::deque<int, std::allocator<int> >*, unsigned long>(std::deque<int, std::allocator<int> >*, unsigned long)
+  [87] std::stack<int, std::deque<int, std::allocator<int> > >::empty() const [39] std::_Deque_iterator<int, int&, int*>::operator++() [138] std::deque<int, std::allocator<int> >* std::__uninitialized_default_n_a<std::deque<int, std::allocator<int> >*, unsigned long, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, unsigned long, std::allocator<std::deque<int, std::allocator<int> > >&)
+ [111] std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [68] std::allocator_traits<std::allocator<int*> >::deallocate(std::allocator<int*>&, int**, unsigned long) [44] unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+ [112] std::chrono::duration<double, std::ratio<1l, 1l> >::count() const [69] std::allocator_traits<std::allocator<int*> >::allocate(std::allocator<int*>&, unsigned long) [84] unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+ [101] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [126] std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::deallocate(std::allocator<std::deque<int, std::allocator<int> > >&, std::deque<int, std::allocator<int> >*, unsigned long) [181] void std::fill<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&)
+ [113] std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::_M_check_len(unsigned long, char const*) const [127] std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::allocate(std::allocator<std::deque<int, std::allocator<int> > >&, unsigned long) [13] int const& std::forward<int const&>(std::remove_reference<int const&>::type&)
+  [45] std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::size() const [82] std::allocator_traits<std::allocator<std::deque<int, std::allocator<int> > > >::max_size(std::allocator<std::deque<int, std::allocator<int> > > const&) [139] void std::_Destroy<std::deque<int, std::allocator<int> >*>(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*)
+  [81] std::vector<std::deque<int, std::allocator<int> >, std::allocator<std::deque<int, std::allocator<int> > > >::max_size() const [70] std::allocator_traits<std::allocator<int> >::deallocate(std::allocator<int>&, int*, unsigned long) [140] void std::_Destroy<std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*, std::deque<int, std::allocator<int> >*, std::allocator<std::deque<int, std::allocator<int> > >&)
+  [33] std::allocator<int*>::allocator<int>(std::allocator<int> const&) [92] void std::allocator_traits<std::allocator<int> >::destroy<int>(std::allocator<int>&, int*) [77] void std::_Destroy<std::deque<int, std::allocator<int> > >(std::deque<int, std::allocator<int> >*)
+  [34] std::allocator<int*>::~allocator() [71] std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) [182] void std::__fill_a<std::_Bit_iterator, bool>(std::_Bit_iterator, std::_Bit_iterator, bool const&)
+ [114] std::allocator<std::deque<int, std::allocator<int> > >::allocator() [41] void std::allocator_traits<std::allocator<int> >::construct<int, int const&>(std::allocator<int>&, int*, int const&) [183] std::__fill_a1(std::_Bit_iterator, std::_Bit_iterator, bool const&)
+ [115] std::allocator<std::deque<int, std::allocator<int> > >::~allocator() [164] std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned long) [10] std::operator==(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&)
+ [153] std::allocator<bool>::allocator() [165] std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned long) [17] std::operator!=(std::_Deque_iterator<int, int&, int*> const&, std::_Deque_iterator<int, int&, int*> const&)
+ [154] std::allocator<bool>::~allocator() [15] std::_Bit_iterator_base::_M_incr(long) [18] std::operator+(std::_Bit_iterator const&, long)
+  [54] std::allocator<int>::allocator() [11] std::_Bit_iterator_base::_Bit_iterator_base(unsigned long*, unsigned int) [184] main::{lambda()#1}::operator()() const (kosaraju_scc.cpp)
+  [55] std::allocator<int>::~allocator() [128] std::deque<int, std::allocator<int> >* std::__uninitialized_default_n_1<false>::__uninit_default_n<std::deque<int, std::allocator<int> >*, unsigned long>(std::deque<int, std::allocator<int> >*, unsigned long) [25] operator new(unsigned long, void*)
